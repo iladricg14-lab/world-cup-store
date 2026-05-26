@@ -58,12 +58,21 @@ body > .container-fluid {
 }
 
 /* Carrito */
-.bi-cart3 {
-  margin-right: 0.3rem;
+.carrito-link {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.carrito-link i {
+  font-size: 1.2rem;
 }
 
 #contador-carrito {
   background-color: var(--rojo) !important;
+  color: white;
+  font-size: 0.75rem;
+  padding: 0.35em 0.55em;
 }
 
 
